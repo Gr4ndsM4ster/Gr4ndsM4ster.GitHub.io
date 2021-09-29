@@ -1,2 +1,2 @@
-# Gr4ndsM4ster.пitрub.io
+# Gr4ndsM4ster.github.io
 Мой первый сайт
