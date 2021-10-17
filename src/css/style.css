@@ -67,20 +67,19 @@ nav{
 
 .Obo_mne{
     width: 100%;
-    height: 680px;
+    height: 650px;
 }
 
 .zagolovok h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: #263244;
-    margin: 105px 0px 0px 890px;
+    text-transform: uppercase;
+    margin: 105px 0px 0px 870px;
 }
 
 img.cherta{
-    width: 70px;
-    height: 4px;
-    margin: 25px 0px 0px 907px;
+    margin: 30px 0px 0px 907px;
 }  
 
 img.foto_andrey{
@@ -113,12 +112,511 @@ img.foto_andrey{
 .chto_i_umeu{
 	width: 100%;
 	height: 525px;
-	margin: 100px 0px 0px 0px;
 	background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0%20%D1%87%D1%82%D0%BE%20%D1%8F%20%D1%83%D0%BC%D0%B5%D1%8E.jpg) no-repeat 100% 100% / auto 100% ;
 }
 
 .chto_i_umeu h2{
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bold;
-	margin: 100px 0px 0px 875px;
+	padding: 105px 0px 0px 845px;
+	text-transform: uppercase;
+	color: #263244;
+}
+
+.cherta_3block{
+	margin: 30px 0px 0px 905px;
+}
+
+.block2_1{
+	float: left;
+	margin-right: 50px;
+	padding: 100px 0px 0px 280px; 
+	text-align: center;
+}
+
+.block2_1 h4{
+	font-weight: bold;
+	color: #cf7600;
+	padding: 40px 0px 15px 0px;
+}
+
+.block2_1 p{
+	line-height: 20px;
+
+}
+
+.block2_2{
+	float: left;
+	margin-right: 50px;
+	padding: 100px 0px 0px 50px;
+	text-align: center;
+}
+
+.block2_2 h4{
+	font-weight: bold;
+	color: #cf7600;
+	padding: 40px 0px 15px 0px;
+}
+
+.block2_2 p{
+	line-height: 20px;
+}
+
+.block2_3{
+	float: left;
+	margin-right: 50px;
+	padding: 100px 0px 0px 50px;
+	text-align: center;
+}
+
+.block2_3 h4{
+	font-weight: bold;
+	color: #cf7600;
+	padding: 40px 0px 15px 0px;
+}
+
+.block2_3 p{
+	line-height: 20px;
+}
+
+.block2_4{
+	float: left;
+	margin-right: 50px;
+	padding: 100px 0px 0px 50px;
+	text-align: center;
+}
+
+.block2_4 h4{
+	font-weight: bold;
+	color: #cf7600;
+	padding: 40px 0px 15px 0px;
+}
+
+.block2_4 p {
+	line-height: 20px;
+}
+
+.keys{
+	width: 100%;
+	height: 1150px;
+	background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BA%D0%B5%D0%B9%D1%81%D1%8B.jpg) no-repeat;
+	background-position: 0% 80%;
+}
+
+.keys h2{
+	padding: 110px 0px 0px 885px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #384354;
+}
+
+.keys img{
+	margin: 30px 0px 0px 905px;
+}
+
+.zag{
+	padding: 35px 0px 0px 550px;
+	color: #626976;
+}
+
+.textblock3{
+	float: left;
+	padding: 650px 0px 0px 390px;
+	line-height: 25px;
+	color: #384354;
+}
+
+.client{
+	font-size: 20px;
+
+}
+.site{
+	font-size: 20px;
+}
+
+
+.proect{
+	color: #384354;
+	float: left;
+	padding: 650px 0px 0px 110px;
+	line-height: 25px
+}
+
+.proect h3{
+	
+	font-size: 25px;
+}
+
+.textblock3 input{
+	margin: 20px 0px;
+	height: 45px;
+	width: 200px;
+	border-radius: 10px;
+	font-size: 20px;
+	background: #63b5ae;
+	color: #fff;
+}
+
+.raschet{
+	width: 100%;
+	height: 710px;
+}
+
+.rasch{
+	padding: 100px 0px 0px 805px;
+	font-size: 35px;
+	color: #1c2534;
+	font-weight: bold;
+}
+
+.schet{
+	padding: 40px 0px 150px 500px;
+	line-height: 50px;
+}
+
+.tip{
+	font-size: 20px;
+	color: #1c2534;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.cpisok1 select{
+	color: #737373;
+	width: 890px;
+	height: 55px;
+	background: #eeeeee;
+	line-height: 25px;
+}
+
+.disaun{
+	font-size: 20px;
+	color: #1c2534;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.cpicok2 select{
+	color: #737373;
+	width: 890px;
+	height: 55px;
+	background: #eeeeee;
+	line-height: 25px;
+}
+
+.adept{
+	font-size: 20px;
+	color: #1c2534;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.cpicok3 select{
+	color: #737373;
+	width: 890px;
+	height: 55px;
+	background: #eeeeee;
+	line-height: 25px;
+}
+
+.raschet img{
+	padding-top: 35px;
+}
+
+.srok{
+	color: #1c2534;
+	font-size: 18px;
+}
+
+.cumma{
+	margin-top: -10px;
+	color: #1c2534;
+	font-size: 18px;
+}
+
+.block5{
+	width: 100%;
+	height: 500px;
+	background: url(../img/%D1%84%D0%BE%D0%BD%20%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8.png) no-repeat ;
+	margin: 80px 0px 0px 0px;
+}
+
+.block5 h2{
+	padding: 100px 0px 0px 770px;
+	color: #323e4f;
+	font-size: 30px;
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+.chertablok5{
+	padding:30px 0px 0px 905px;
+}
+
+.nagradi{
+	float: left;
+	margin-right: 50px;
+	padding: 100px 0px 0px 425px; 
+	text-align: center;
+}
+
+.cmail{
+	margin-right: 150px;
+	float: left;
+}
+
+.cmail h3{
+	color: #323e4f;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.cmail p{
+	color: #323e4f;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.ckobki{
+	margin-right: 150px;
+	float: left;
+}
+
+.ckobki h3{
+	color: #323e4f;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.ckobki p{
+	color: #323e4f;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.galka{
+	margin-right: 150px;
+	float: left;
+}
+
+.galka h3{
+	color: #323e4f;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.galka p{
+	color: #323e4f;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.kubok{
+	margin-right: 150px;
+	float: left;
+}
+
+.kubok h3{
+	color: #323e4f;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.kubok p{
+	color: #323e4f;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.otzivi{
+	width: 100%;
+	height: 600px;
+}
+
+.otzivi h2{
+	padding: 100px 0px 0px 875px;
+	color: #323e4f;
+	font-size: 30px;
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+.chotziv{
+	padding:30px 0px 0px 905px;
+}
+
+.fotootziv{
+	padding: 60px 0px 0px 895px;
+}
+
+.komment{
+	font-size: 15px;
+	color: #243042;
+	padding: 40px 0px 0px 870px;
+}
+
+.doljnost{
+	font-size: 15px;
+	font-weight: bold;
+	color: #243042;
+	padding: 40px 0px 0px 810px;
+}
+
+.tochki{
+	padding: 50px 20px 0px 910px;
+}
+
+.tochki img{
+	margin-right: 15px;  
+}
+
+.moi_contakti{
+	width: 100%;
+	height: 810px;
+	background: url(../img/%D0%A4%D0%BE%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B.jpg) no-repeat;
+	color: #ffffff;
+}
+
+.moi_contakti h2{
+	padding: 105px 0px 0px 825px;
+	font-size: 30px;
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
+.chkarta{
+	padding:30px 0px 0px 905px;
+}
+
+.text_contact{
+	padding: 35px 0px 0px 890px;
+}
+
+.contakts1{
+	float: left; 
+}
+
+.adress{
+	float: left; 
+	line-height: 20px;
+	padding: 40px 0px 0px 630px;
+}
+
+.adress img{
+	padding: 0px 0px 15px 50px;
+
+}
+
+.adress p{
+	text-align: center;
+}
+
+.pochta{
+	float: left;  
+	line-height: 20px;
+	padding: 40px 0px 0px 100px;
+}
+
+.pochta img{
+	padding: 0px 0px 15px 60px;
+
+}
+
+.pochta p{
+	text-align: center;
+}
+
+
+.nomer{
+	float: left; 
+	line-height: 20px;
+	padding: 40px 600px 0px 100px;
+}
+
+.nomer img{
+	padding: 0px 0px 15px 45px;
+
+}
+
+.nomer p{
+	text-align: center;
+}
+
+.dannie h3{
+	padding: 60px 0px 0px 800px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.name1{
+	margin: 45px 0px 0px 570px;
+	width: 350px;
+	height: 35px;
+	color: #747577;
+	font-size: 15px;
+}
+
+.emael{
+	margin: 45px 0px 0px 30px;
+	width: 350px;
+	height: 35px;
+	color: #747577;
+	font-size: 15px;
+}
+
+.dannie textarea{
+	margin: 15px 0px 0px 570px;
+	width: 734px;
+	height: 95px;
+	color: #747577;
+	font-size: 15px;
+}
+
+.otprav{
+	width: 125px;
+	height: 45px;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	background: none;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	margin: 30px 0px 0px 880px;
+}
+
+.map{
+	width: 100%;
+	height: 350px;
+	background: url(../img/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png) no-repeat;
+}
+
+.map input{
+	width: 135px;
+	height: 50px;
+	background-color: #fff;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: 145px 0px 0px 865px;
+}
+
+.end{
+	width: 100%;
+	height: 95px;
+	background: #344051;
+	color: #fff;
+}
+
+.end p{
+	padding: 40px 0px 0px 800px;
 }
