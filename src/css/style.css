@@ -5,6 +5,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
 }
 
 .logo{
@@ -13,11 +14,14 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
 }
 
 .menu{
     float: left;
-    padding-left: 432px;
+    padding-left: 432px; 
 }
 
 .menu li{
@@ -27,11 +31,35 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+    -webkit-animation: zodolovok 1s ease forwards;
+    -o-animation: zodolovok 1s ease forwards;
+    animation: zodolovok 1s ease forwards;
+    opacity: 0;
+}
+
+.menu li a{
+    transition: all 0.2s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+	color: white;
+}
+
+.menu li a:hover{
+	color: #ff9100;
+    
+}
+
+.menu li a:active{
+    transform: scale(0.9);
 }
 
 .main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/ auto 85% no-repeat , url(../img/%D1%84%D0%BE%D0%BDbg.jpg) center/cover no-repeat;
 }
 
@@ -40,6 +68,13 @@ nav{
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    opacity: 0;
+    -webkit-animation: titlekonteiner 1s ease forwards;
+    -o-animation: titlekonteiner 1s ease forwards;
+    animation: titlekonteiner 1s ease forwards; 
+    -webkit-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s; 
 }
 
 .titel__conteiner h1{
@@ -98,7 +133,7 @@ img.foto_andrey{
 	color: #3f495a;
 }
 
-.btn1{
+.skachatrez{
 	height: 35px;
 	width: 165px;
 	margin: 55px 0px 0px 860px;
@@ -109,6 +144,22 @@ img.foto_andrey{
 	text-align: center;
 	color: #666f7c;
 }
+
+.skachatrez{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.skachatrez:hover{
+    background: #6f707e;
+    color: white;
+    
+}
+
+.skachatrez:active{
+    transform: scale(0.9);
+}
+
 .chto_i_umeu{
 	width: 100%;
 	height: 525px;
@@ -256,6 +307,19 @@ img.foto_andrey{
 	font-size: 20px;
 	background: #63b5ae;
 	color: #fff;
+}
+
+.textblock3 input{
+    transform: all 0.2s;
+    transform: scale(1);
+}
+
+.textblock3 input:hover{
+    background: #0d8e83;
+}
+
+.textblock3 input:active{
+transform: scale(0.9);
 }
 
 .raschet{
@@ -589,8 +653,22 @@ img.foto_andrey{
 	background: none;
 	text-align: center;
 	color: #fff;
-	font-size: 15px;
+	font-size: 17px;
 	margin: 30px 0px 0px 880px;
+}
+
+.otprav{
+    transform: all 0.2s;
+    transform: scale(1);
+}
+
+.otprav:hover{
+    background: #f58f09;
+    color: white;
+}
+
+.otprav:active{
+    transform: scale(0.9);
 }
 
 .map{
@@ -620,3 +698,69 @@ img.foto_andrey{
 .end p{
 	padding: 40px 0px 0px 800px;
 }
+
+.titel__conteiner input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.titel__conteiner input:hover{
+    background: #344051;
+    color: white;
+}
+
+.titel__conteiner input:active{
+    transform: scale(0.9);
+}
+
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes zodolovok{
+    from{
+        opacity: 0;
+        margin-top: -50px; 
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.menu li:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.menu li:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+.menu li:nth-child(6){
+    animation-delay: 1s;
+}
+
+@keyframes titlekonteiner{
+    from{
+        opacity: 0;
+        margin-left: -500px; 
+    }
+    to{
+        opacity: 1;
+        margin-left: 404px;
+    }
+}
+
